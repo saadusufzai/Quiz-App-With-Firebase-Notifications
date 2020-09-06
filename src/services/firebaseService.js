@@ -12,13 +12,16 @@ const firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig);
-  const massaging = firebase.messaging();
+  const messaging = firebase.messaging();
+
+  // Add the public key generated from the console here.
+  messaging.usePublicVapidKey("BCiQLjDQ85nHZ8Gnc42U9HHCL4LvegWd5SUkgWfBEatxxi9vyF1SWewZzSPHyaBYsJpuXEM7DSjfOK9bSoQgcdk");
 
 export const configureNotification = ()=>{
     Notification.requestPermission().then((permission)=>{
         console.log(permission)
         if(permission === 'granted'){
-            massaging.getToken().then((currentToken)=>{
+            messaging.getToken().then((currentToken)=>{
                 if(currentToken){
                     console.log('TOKEN => ')
                     console.log( currentToken)
