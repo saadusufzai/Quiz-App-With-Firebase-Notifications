@@ -1,8 +1,6 @@
 importScripts('https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/7.18.0/firebase-messaging.js');
 
-
-
 const firebaseConfig = {
     apiKey: "AIzaSyBaU7IuJxGZeGhIT3lao20PYqiGsvQmsYM",
     authDomain: "quiz-app-push-notificati-10d11.firebaseapp.com",
@@ -16,3 +14,4 @@ const firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig);
   firebase.messaging();
+  
