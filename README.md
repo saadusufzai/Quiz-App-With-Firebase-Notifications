@@ -12,10 +12,15 @@ and go for it.
 # surge link will be added soon
 SURGE LINK: http://quiz-app-by-saad.surge.sh/
 
+# Firebase Hosted App Link
+https://quiz-app-push-notificati-10d11.firebaseapp.com/
+
 # Made using 
 React
 Typescript
 opentdb QUIZ API
+Cloud Messaging
+Firebase Hosting
 
 # Tools
 
