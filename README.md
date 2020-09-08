@@ -16,11 +16,11 @@ SURGE LINK: http://quiz-app-by-saad.surge.sh/
 React
 Typescript
 opentdb QUIZ API
-hosted on github
-CI/CD github actions
-running on surge.sh
 
 # Tools
 
 Node.js 
+Firebase
+Cloud Messaging
+Firebase Hosting
 Visual Studio Code 
