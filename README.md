@@ -12,6 +12,9 @@ and go for it.
 # surge link will be added soon
 SURGE LINK: http://quiz-app-by-saad.surge.sh/
 
+# Netlify Link
+https://pwa-quiz-app-by-saad.netlify.app/
+
 # Firebase Hosted App Link
 https://quiz-app-push-notificati-10d11.firebaseapp.com/
 
@@ -29,3 +32,4 @@ Firebase
 Cloud Messaging
 Firebase Hosting
 Visual Studio Code 
+Netlify 
