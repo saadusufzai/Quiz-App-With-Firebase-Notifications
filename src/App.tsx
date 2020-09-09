@@ -6,7 +6,7 @@ import QuestionUi from "./components/QuestionUi";
 import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 import { configureNotification } from './services/firebaseService'
-import serviceWorker from './serviceWorker'
+
 
 function App() {
   let [quiz, setQuiz] = useState<quiz[]>([]);
@@ -43,7 +43,7 @@ function App() {
   };
 
   if (!quiz.length) {
-    return <h1 className="loader">Loading...</h1>;
+    return <div className="loader">Loading...</div>;
   }
 
   if (step === totalQuestions) {
