@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "app.netlify.pwa_quiz_app_by_saad.twa",
+                   "sha256_cert_fingerprints": ["0A:07:8F:52:F1:55:88:DA:A0:5B:CF:12:35:C7:4C:9F:B3:2F:54:C8:6D:10:B8:20:42:60:B0:83:2C:87:92:D4"] }
+    }]
