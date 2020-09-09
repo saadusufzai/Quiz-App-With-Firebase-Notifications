@@ -6,6 +6,7 @@ import QuestionUi from "./components/QuestionUi";
 import Welcome from "./components/Welcome";
 import Footer from "./components/Footer";
 import { configureNotification } from './services/firebaseService'
+import serviceWorker from './serviceWorker'
 
 function App() {
   let [quiz, setQuiz] = useState<quiz[]>([]);
