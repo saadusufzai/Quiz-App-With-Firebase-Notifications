@@ -9,6 +9,11 @@ Process:
 4. Select difficulty level 
 and go for it.
 
+# PWA (Progressive Web App)
+This is a PWA means you can install it on your desktop and use it as a desktop applicaion. It got ofline support and if you want you can convert this app to a
+Android App, Apple App and Windows App
+
+
 # surge link 
 SURGE LINK: http://quiz-app-pwa-by-saad.surge.sh/
 
