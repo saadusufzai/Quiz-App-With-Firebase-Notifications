@@ -1,4 +1,4 @@
-# Quiz App | Using React and type script | Firebase Push Notifications 
+# Quiz App | Using React and type script | Firebase Push Notifications | PWA 
 This quiz app gets quiz from a very popular quiz api .
 Test you knowledge and skills using QUIZ APP developed by me.
 share your results lets see who can score 100%
